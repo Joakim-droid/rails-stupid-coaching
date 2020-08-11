@@ -1,0 +1,39 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+input[type="submit"] {
+  background-color: #3769B7;
+  padding: 8px 16px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
+.answer {
+  background-color: #FCFFE0;
+  position: relative;
+  p {
+    padding-left: 16px;
+  }
+}
+.question {
+  position: relative;
+  p {
+    padding-left: 16px;
+  }
+}
+.grey {
+  position: absolute;
+  left: 0px;
+  width: 8px;
+  height: 100%;
+  background-color: #DCDCDC;
+}
